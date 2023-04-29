@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#F18500
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 8px;
+    gap: 1em;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    margin-left: 100px;
+    color: #240C00;
+}
+h3, .legenda, .total{
+    padding-left: 16px;
+    margin-top: 6px;
+    font-size: x-large;
+    color: #FFCA00;
+}
+.first{
+    width: 75%;
+    margin: auto;
+    border-radius: 6px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.images{
+    width: 397px;
+    margin-left: 240px;
+    text-align: left;
+    border-radius: 6px;
+    background-color:#240C00;
+    box-shadow: 0px 1px 6px #b4b4b457;
+}
+.esfiha{
+    width: 397px;
+    height: 278px;
+    border-radius: 8px; 
+}
+.title{
+    font-size:1.3em; 
+}
+.total{
+    font-size: xx-large;
+}
+.small{
+    position: absolute;
+    top: 46px;
+    left: 80px;
+    color: #333;
+    font-size:1.2em;
+}
+.first > span{
+    color: #333;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%; 
+}
+.value{
+    color: red;
+}
+button{
+    width: 106px;
+    padding: 12px;
+    margin-left: 116px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 20px;
+    background-color: #005200;
+    color: white;
+}
